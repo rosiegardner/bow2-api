@@ -12,9 +12,11 @@ class Seed
         breed: Faker::Games::WarhammerFantasy.creature,
         name: Faker::Creature::Dog.name,
         age: Faker::Number.between(from: 1, to: 1000),
-        desc: Faker::Games::WarhammerFantasy.quote
+        desc: Faker::Games::WarhammerFantasy.quote,
+        strength: Faker::Number.between(from: 1, to: 10),
+        weapon: Faker::Games::DnD.ranged_weapon
       )
-      puts "Beast #{i}: Daemon: #{beast.daemon}, Breed: #{beast.breed}, Name: #{beast.name}, Age: #{beast.age}, Desc: #{beast.desc}."
+      puts "Beast #{i}: Daemon: #{beast.daemon}, Breed: #{beast.breed}, Strength: #{beast.strength}, Weapon: #{beast.weapon}, Name: #{beast.name}, Age: #{beast.age}, Desc: #{beast.desc}."
     end
 
     30.times do |i|
@@ -23,9 +25,11 @@ class Seed
         breed: Faker::Games::ElderScrolls.creature,
         name: Faker::Creature::Cat.name,
         age: Faker::Number.between(from: 1, to: 1000),
-        desc: Faker::Games::WorldOfWarcraft.quote
+        desc: Faker::Games::WorldOfWarcraft.quote,
+        strength: Faker::Number.between(from: 1, to: 10),
+        weapon: Faker::Games::Zelda.item
       )
-      puts "Beast #{i}: Daemon: #{beast.daemon}, Breed: #{beast.breed}, Name: #{beast.name}, Age: #{beast.age}, Desc: #{beast.desc}."
+      puts "Beast #{i}: Daemon: #{beast.daemon}, Breed: #{beast.breed}, Strength: #{beast.strength}, Weapon: #{beast.weapon}, Name: #{beast.name}, Age: #{beast.age}, Desc: #{beast.desc}."
     end
   end
 end

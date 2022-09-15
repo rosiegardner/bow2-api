@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2022_06_30_230423) do
+ActiveRecord::Schema.define(version: 2022_09_15_030124) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -22,6 +22,8 @@ ActiveRecord::Schema.define(version: 2022_06_30_230423) do
     t.integer "age"
     t.string "desc"
     t.boolean "available", default: true
+    t.integer "strength"
+    t.string "weapon"
   end
 
 end
