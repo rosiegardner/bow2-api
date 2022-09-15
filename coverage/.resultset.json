@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/rosie/Desktop/beasts_of_war/spec/models/beasts_spec.rb": {
+      "/Users/rosie/Desktop/beasts_of_war_api-main/spec/models/beasts_spec.rb": {
         "lines": [
           1,
           null,
@@ -11,10 +11,12 @@
           2,
           2,
           2,
+          2,
+          2,
           null
         ]
       },
-      "/Users/rosie/Desktop/beasts_of_war/spec/rails_helper.rb": {
+      "/Users/rosie/Desktop/beasts_of_war_api-main/spec/rails_helper.rb": {
         "lines": [
           null,
           1,
@@ -88,7 +90,7 @@
           null
         ]
       },
-      "/Users/rosie/Desktop/beasts_of_war/config/environment.rb": {
+      "/Users/rosie/Desktop/beasts_of_war_api-main/config/environment.rb": {
         "lines": [
           null,
           1,
@@ -97,7 +99,7 @@
           1
         ]
       },
-      "/Users/rosie/Desktop/beasts_of_war/config/application.rb": {
+      "/Users/rosie/Desktop/beasts_of_war_api-main/config/application.rb": {
         "lines": [
           1,
           null,
@@ -123,6 +125,12 @@
           null,
           1,
           null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
           null,
           null,
           null,
@@ -136,7 +144,7 @@
           null
         ]
       },
-      "/Users/rosie/Desktop/beasts_of_war/config/boot.rb": {
+      "/Users/rosie/Desktop/beasts_of_war_api-main/config/boot.rb": {
         "lines": [
           1,
           null,
@@ -144,7 +152,7 @@
           1
         ]
       },
-      "/Users/rosie/Desktop/beasts_of_war/config/environments/test.rb": {
+      "/Users/rosie/Desktop/beasts_of_war_api-main/config/environments/test.rb": {
         "lines": [
           1,
           null,
@@ -194,7 +202,7 @@
           null
         ]
       },
-      "/Users/rosie/Desktop/beasts_of_war/config/initializers/application_controller_renderer.rb": {
+      "/Users/rosie/Desktop/beasts_of_war_api-main/config/initializers/application_controller_renderer.rb": {
         "lines": [
           null,
           null,
@@ -206,7 +214,7 @@
           null
         ]
       },
-      "/Users/rosie/Desktop/beasts_of_war/config/initializers/backtrace_silencers.rb": {
+      "/Users/rosie/Desktop/beasts_of_war_api-main/config/initializers/backtrace_silencers.rb": {
         "lines": [
           null,
           null,
@@ -217,7 +225,7 @@
           null
         ]
       },
-      "/Users/rosie/Desktop/beasts_of_war/config/initializers/cors.rb": {
+      "/Users/rosie/Desktop/beasts_of_war_api-main/config/initializers/cors.rb": {
         "lines": [
           null,
           null,
@@ -237,7 +245,7 @@
           null
         ]
       },
-      "/Users/rosie/Desktop/beasts_of_war/config/initializers/filter_parameter_logging.rb": {
+      "/Users/rosie/Desktop/beasts_of_war_api-main/config/initializers/filter_parameter_logging.rb": {
         "lines": [
           null,
           null,
@@ -245,7 +253,7 @@
           1
         ]
       },
-      "/Users/rosie/Desktop/beasts_of_war/config/initializers/inflections.rb": {
+      "/Users/rosie/Desktop/beasts_of_war_api-main/config/initializers/inflections.rb": {
         "lines": [
           null,
           null,
@@ -265,7 +273,7 @@
           null
         ]
       },
-      "/Users/rosie/Desktop/beasts_of_war/config/initializers/mime_types.rb": {
+      "/Users/rosie/Desktop/beasts_of_war_api-main/config/initializers/mime_types.rb": {
         "lines": [
           null,
           null,
@@ -273,7 +281,7 @@
           null
         ]
       },
-      "/Users/rosie/Desktop/beasts_of_war/config/initializers/wrap_parameters.rb": {
+      "/Users/rosie/Desktop/beasts_of_war_api-main/config/initializers/wrap_parameters.rb": {
         "lines": [
           null,
           null,
@@ -291,7 +299,7 @@
           null
         ]
       },
-      "/Users/rosie/Desktop/beasts_of_war/app/channels/application_cable/channel.rb": {
+      "/Users/rosie/Desktop/beasts_of_war_api-main/app/channels/application_cable/channel.rb": {
         "lines": [
           1,
           1,
@@ -299,7 +307,7 @@
           null
         ]
       },
-      "/Users/rosie/Desktop/beasts_of_war/app/channels/application_cable/connection.rb": {
+      "/Users/rosie/Desktop/beasts_of_war_api-main/app/channels/application_cable/connection.rb": {
         "lines": [
           1,
           1,
@@ -307,7 +315,7 @@
           null
         ]
       },
-      "/Users/rosie/Desktop/beasts_of_war/app/controllers/application_controller.rb": {
+      "/Users/rosie/Desktop/beasts_of_war_api-main/app/controllers/application_controller.rb": {
         "lines": [
           1,
           1,
@@ -321,7 +329,7 @@
           null
         ]
       },
-      "/Users/rosie/Desktop/beasts_of_war/app/controllers/concerns/response.rb": {
+      "/Users/rosie/Desktop/beasts_of_war_api-main/app/controllers/concerns/response.rb": {
         "lines": [
           1,
           1,
@@ -330,7 +338,7 @@
           null
         ]
       },
-      "/Users/rosie/Desktop/beasts_of_war/app/controllers/beasts_controller.rb": {
+      "/Users/rosie/Desktop/beasts_of_war_api-main/app/controllers/beasts_controller.rb": {
         "lines": [
           1,
           null,
@@ -380,13 +388,13 @@
           null
         ]
       },
-      "/Users/rosie/Desktop/beasts_of_war/app/jobs/application_job.rb": {
+      "/Users/rosie/Desktop/beasts_of_war_api-main/app/jobs/application_job.rb": {
         "lines": [
           1,
           null
         ]
       },
-      "/Users/rosie/Desktop/beasts_of_war/app/mailers/application_mailer.rb": {
+      "/Users/rosie/Desktop/beasts_of_war_api-main/app/mailers/application_mailer.rb": {
         "lines": [
           1,
           1,
@@ -394,15 +402,18 @@
           null
         ]
       },
-      "/Users/rosie/Desktop/beasts_of_war/app/models/application_record.rb": {
+      "/Users/rosie/Desktop/beasts_of_war_api-main/app/models/application_record.rb": {
         "lines": [
           1,
           1,
           null
         ]
       },
-      "/Users/rosie/Desktop/beasts_of_war/app/models/beast.rb": {
+      "/Users/rosie/Desktop/beasts_of_war_api-main/app/models/beast.rb": {
         "lines": [
+          1,
+          1,
+          1,
           1,
           1,
           1,
@@ -421,10 +432,12 @@
           null
         ]
       },
-      "/Users/rosie/Desktop/beasts_of_war/spec/factories.rb": {
+      "/Users/rosie/Desktop/beasts_of_war_api-main/spec/factories.rb": {
         "lines": [
           1,
           1,
+          241,
+          241,
           241,
           241,
           241,
@@ -434,14 +447,14 @@
           null
         ]
       },
-      "/Users/rosie/Desktop/beasts_of_war/config/routes.rb": {
+      "/Users/rosie/Desktop/beasts_of_war_api-main/config/routes.rb": {
         "lines": [
           1,
           1,
           null
         ]
       },
-      "/Users/rosie/Desktop/beasts_of_war/spec/requests/delete_route_spec.rb": {
+      "/Users/rosie/Desktop/beasts_of_war_api-main/spec/requests/delete_route_spec.rb": {
         "lines": [
           1,
           null,
@@ -460,7 +473,7 @@
           null
         ]
       },
-      "/Users/rosie/Desktop/beasts_of_war/spec/requests/exceptions_spec.rb": {
+      "/Users/rosie/Desktop/beasts_of_war_api-main/spec/requests/exceptions_spec.rb": {
         "lines": [
           1,
           null,
@@ -486,7 +499,7 @@
           null
         ]
       },
-      "/Users/rosie/Desktop/beasts_of_war/spec/requests/get_beasts_spec.rb": {
+      "/Users/rosie/Desktop/beasts_of_war_api-main/spec/requests/get_beasts_spec.rb": {
         "lines": [
           1,
           null,
@@ -531,7 +544,7 @@
           null
         ]
       },
-      "/Users/rosie/Desktop/beasts_of_war/spec/requests/post_route_spec.rb": {
+      "/Users/rosie/Desktop/beasts_of_war_api-main/spec/requests/post_route_spec.rb": {
         "lines": [
           1,
           null,
@@ -541,6 +554,8 @@
           2,
           null,
           null,
+          1,
+          1,
           1,
           1,
           1,
@@ -556,7 +571,7 @@
           null
         ]
       },
-      "/Users/rosie/Desktop/beasts_of_war/spec/requests/put_route_spec.rb": {
+      "/Users/rosie/Desktop/beasts_of_war_api-main/spec/requests/put_route_spec.rb": {
         "lines": [
           1,
           null,
@@ -569,6 +584,8 @@
           2,
           null,
           null,
+          1,
+          1,
           1,
           1,
           1,
@@ -587,6 +604,6 @@
         ]
       }
     },
-    "timestamp": 1657473041
+    "timestamp": 1663212449
   }
 }
