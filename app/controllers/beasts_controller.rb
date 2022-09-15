@@ -41,6 +41,6 @@ class BeastsController < ApplicationController
 
   private
   def beast_params
-    params.permit(:daemon, :breed, :name, :age, :desc, :available)
+    params.permit(:daemon, :breed, :name, :age, :desc, :strength, :weapon, :available)
   end
 end
