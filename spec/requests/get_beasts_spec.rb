@@ -14,7 +14,7 @@ describe "get all beasts route", :type => :request do
   end
 
   it 'returns a beast by id' do
-    @beast = Beast.create!(:daemon => 'hellhound', :breed => "red_witch", :name => "hex", :age => 666, :desc => "a good dog")
+    @beast = Beast.create!(:daemon => 'hellhound', :breed => "red_witch", :name => "hex", :age => 666, :desc => "a good dog", :strength => 9, :weapon => "sword")
     get "/beasts/#{@beast.id}"
     beast_response = []
     beast_response << JSON.parse(response.body)
@@ -30,7 +30,7 @@ end
 describe "get beast by name" do
 
   before do
-    post '/beasts', params: { :daemon => 'shadow cat', :breed => "wicked lady", :name => "haxan", :age => 66, :desc => 'a demonic cat'}
+    post '/beasts', params: { :daemon => 'shadow cat', :breed => "wicked lady", :name => "haxan", :age => 66, :desc => 'a demonic cat', :strength => 9, :weapon => "sword"}
   end
   
   it 'searches beast by name' do

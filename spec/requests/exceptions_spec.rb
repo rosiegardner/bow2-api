@@ -13,7 +13,7 @@ end
 describe 'post a beast route with exception handlers', :type => :request do
 
   before do
-    post '/beasts', params: { :daemon => 'hellhound', :breed => "red_witch", :name => "hex", :age => 666, :desc => nil}
+    post '/beasts', params: { :daemon => 'hellhound', :breed => "red_witch", :name => "hex", :age => 666, :desc => nil, :strength => 9, :weapon => "sword"}
   end
 
   it 'returns a RecordInvalid error' do

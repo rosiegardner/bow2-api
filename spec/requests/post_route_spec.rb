@@ -3,7 +3,7 @@ require 'rails_helper'
 describe "post a beast route", :type => :request do
 
   before do
-    post '/beasts', params: { :daemon => 'hellhound', :breed => "red_witch", :name => "hex", :age => 666, :desc => "a good dog"}
+    post '/beasts', params: { :daemon => 'hellhound', :breed => "red_witch", :name => "hex", :age => 666, :desc => "a good dog" , :strength => 9, :weapon => "sword"}
   end
 
   it 'returns a beast' do
@@ -12,6 +12,8 @@ describe "post a beast route", :type => :request do
     expect(JSON.parse(response.body)['name']).to eq('hex')
     expect(JSON.parse(response.body)['age']).to eq(666)
     expect(JSON.parse(response.body)['desc']).to eq('a good dog')
+    expect(JSON.parse(response.body)['strength']).to eq(9)
+    expect(JSON.parse(response.body)['weapon']).to eq('sword')
   end
 
   it 'returns a created status' do

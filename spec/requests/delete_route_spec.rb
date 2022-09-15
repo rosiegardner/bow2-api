@@ -3,7 +3,7 @@ require 'rails_helper'
 describe 'destroy a beast route', :type => :request do
 
   before do
-    post '/beasts', params: { :daemon => 'hellhound', :breed => "red_witch", :name => "hex", :age => 666, :desc => "a good dog"}
+    post '/beasts', params: { :daemon => 'hellhound', :breed => "red_witch", :name => "hex", :age => 666, :desc => "a good dog", :strength => 9, :weapon => "sword"}
     @beast_id = JSON.parse(response.body)['id']
     delete "/beasts/#{@beast_id}"
   end

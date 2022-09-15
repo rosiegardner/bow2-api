@@ -3,9 +3,9 @@ require 'rails_helper'
 describe 'update a beast route', :type => :request do
 
   before do
-    post '/beasts/', params: { :daemon => 'hellhound', :breed => "red_witch", :name => "hex", :age => 666, :desc => "a good dog"}
+    post '/beasts/', params: { :daemon => 'hellhound', :breed => "red_witch", :name => "hex", :age => 666, :desc => "a good dog", :strength => 9, :weapon => "sword"}
     @beast_id = JSON.parse(response.body)['id']
-    patch "/beasts/#{@beast_id}", params: { :daemon => 'shadow cat', :breed => "wicked lady", :name => "haxan", :age => 66, :desc => "a demonic cat"}
+    patch "/beasts/#{@beast_id}", params: { :daemon => 'shadow cat', :breed => "wicked lady", :name => "haxan", :age => 66, :desc => "a demonic cat", :strength => 9, :weapon => "sword"}
     get "/beasts/#{@beast_id}"
   end
 
@@ -16,10 +16,12 @@ describe 'update a beast route', :type => :request do
     expect(JSON.parse(response.body)['name']).to eq('haxan')
     expect(JSON.parse(response.body)['age']).to eq(66)
     expect(JSON.parse(response.body)['desc']).to eq('a demonic cat')
+    expect(JSON.parse(response.body)['strength']).to eq(9)
+    expect(JSON.parse(response.body)['weapon']).to eq('sword')
   end
   
   it 'returns a success message status' do
-    patch "/beasts/#{@beast_id}" , params: { :daemon => 'shadow cat', :breed => "wicked lady", :name => "haxan", :age => 666, :desc => "a demonic cat" }
+    patch "/beasts/#{@beast_id}" , params: { :daemon => 'shadow cat', :breed => "wicked lady", :name => "haxan", :age => 666, :desc => "a demonic cat", :strength => 9, :weapon => "sword" }
     expect(response).to have_http_status(:success)
     expect(JSON.parse(response.body)['message']).to eq('This beast has been updated successfully!')
   end
