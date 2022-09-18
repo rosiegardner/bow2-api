@@ -12,7 +12,7 @@ class Seed
         breed: Faker::Games::WarhammerFantasy.creature,
         name: Faker::Creature::Dog.name,
         age: Faker::Number.between(from: 1, to: 1000),
-        desc: Faker::Games::WarhammerFantasy.quote,
+        desc: Faker::Games::WorldOfWarcraft.quote,
         strength: Faker::Number.between(from: 1, to: 10),
         weapon: Faker::Games::DnD.ranged_weapon
       )
